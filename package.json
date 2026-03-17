@@ -1,0 +1,13 @@
+{
+  "name": "meesho-project",
+  "version": "1.0.0",
+  "description": "Sample CI project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test passed\"",
+    "lint": "echo \"Lint passed\""
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
