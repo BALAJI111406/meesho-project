@@ -17,7 +17,8 @@ jobs:
         with:
           node-version: '18'
 
-      
+      - name: Install dependencies
+        run: npm install
 
       - name: Run Lint (ESLint)
         run: npx eslint .
